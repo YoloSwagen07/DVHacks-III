@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html>
-<style>
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
+  <style>
+    h1{
+      text-align: center;
+      font-family: "Lucida Console", Lucida, Monospace;
+      border: 3px solid black;
+    }
+    body{
+      text-align:center;
+      background-color: #666699;
+    }
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+    }
 
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      font-family: "Lucida Console", Lucida, Monospace;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      font-family: "Lucida Console", Lucida, Monospace;
+      background-color: #ddd;
+      color: black;
+    }
+  .topnav a.help {
+    float: right;
     font-family: "Lucida Console", Lucida, Monospace;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  /* Change the color of links on hover */
-  .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-
-  /* Add a color to the active/current link */
-  .topnav a.active {
+  .main {
     font-family: "Lucida Console", Lucida, Monospace;
-    background-color: #ddd;
-    color: black;
+    float:center;
+    border: 3px solid black;
+    line-height: 1.5; /* line spacing */
   }
 </style>
 <title>
@@ -43,5 +65,4 @@ Fires Around Me!
 width="900" style="height: 300px">
 <a href="CoolTerm.txt">No Support?</a>
 </object>
-
 </html>
