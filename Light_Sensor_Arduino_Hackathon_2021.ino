@@ -17,7 +17,6 @@ void loop() {
       if (hella > 700) {
         bet = true;
         Serial.println("Fire");
-        Serial.println("37.66243,-121.87468");
         Serial.println(hella);
         digitalWrite(blueLED, HIGH);
         delay(200);
