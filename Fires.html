@@ -51,6 +51,43 @@
     border: 3px solid black;
     line-height: 1.5; /* line spacing */
   }
+  .main1 {
+    float:center;
+    border: 3px solid black;
+    margin-left: 250px;
+    line-height: 1.5; /* line spacing */
+  }
+  .main2 {
+    float:center;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    line-height: 1.5; /* line spacing */
+  }
+  .main3 {
+    float:left;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    line-height: 1.5; /* line spacing */
+  }
+  .footer {
+  text-color: #666699;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+  .marquee{
+    font-family: "Lucida Console", Lucida, Monospace;
+    border: 3px solid black;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
 </style>
 <title>
   Hackathon 2021!
@@ -65,4 +102,15 @@ Fires Around Me!
 width="900" style="height: 300px">
 <a href="CoolTerm.txt">No Support?</a>
 </object>
+<body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx0wN2_sHieHhzzRyaACceNtSXHH7vikY"
+      async
+    ></script>
+  </body>
 </html>
